@@ -1,0 +1,56 @@
+body{
+  background-image: url('bg.jpg');
+  background-size: cover;
+}
+
+/*------------------------Full calculator screen----------*/
+#interface{
+	background-color: grey;
+	height: 400px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10% 20% 0% 38%;
+	border: 3px solid white;
+}
+
+/*-------------Display where calculations will be visible------------------*/
+#display{
+	width: 100%;
+	height: 25%;
+   margin-left: -2px;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: flex-end;
+}
+
+#display span{
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+/*---------------Keypad buttons section---------------------*/
+#key-buttons{
+	height: 75%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.btn-prop{
+	height: 60px;
+	width: 75px;
+	font-weight: bold;
+	font-size: 25px;
+	cursor: pointer;          /*For the effect of glove hand when we hover over button*/
+}
+
+
+.btn-red{
+	background-color: #E15D44;
+	color: white;
+}
+
+.btn-0{
+	width: 150px;
+}
